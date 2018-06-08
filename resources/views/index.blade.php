@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<!-- <link href="{{ ../public('css/index.css') }}" rel="stylesheet"> -->
-	<!-- <link rel="stylesheet" href="{{ asset('css/index.css') }}"> -->
+	<link href="{{ asset('css/index.css') }}" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -27,9 +26,9 @@
         </section>
       </main>
     </div>
-    <!-- <script src="//code.jquery.com/jquery-3.1.1.min.js"
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
-	<script type="text/javascript" src="{{ asset('js/client.js') }}"></script> -->
+	<script type="text/javascript" src="{{ asset('js/client.js') }}"></script>
   </body>
 </html>
