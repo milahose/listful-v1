@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="{{ ../public/css('css/index.css') }}" rel="stylesheet">
+	<!-- <link href="{{ ../public('css/index.css') }}" rel="stylesheet"> -->
+	<link rel="stylesheet" href="{{ asset('css/index.css') }}">
   </head>
   <body>
     <div class="container">
